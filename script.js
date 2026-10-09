@@ -100,7 +100,7 @@ totalPremios += premio;
 updateStats();
 if (totalPremios >= PRIZE_LIMIT) gameOver = true;
 showResult(
-`🎉 PARABÉNS! O dino sorteado foi ${DINOS[sorteado].emoji}
+`🎉 I JUST HIT THE JACKPOOOOOOT, ${DINOS[sorteado].emoji}
 ${DINOS[sorteado].name}! Você ganhou ${fmt(premio)}!`,
 'win'
 );
@@ -186,6 +186,4 @@ function closeModal() {
 document.getElementById('modal-overlay').style.display = 'none';
 }
 
-const ultcinco = [
-
-]
+const ultcinco = []
